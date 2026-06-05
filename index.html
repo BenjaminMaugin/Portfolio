@@ -12,17 +12,20 @@
 <body>
 
     <header>
+        <img src="assets/Langage-corporel-du-chat--1150x628.jpg" alt="grr" class="photo">
         <h1>Benjamin Maugin</h1>
         <p>Étudiant en Informatique à l'IUT de Nantes</p>
     </header>
 
     <nav>
         <a href="#apropos">À propos</a>
+        <a href="#formation">Formation</a>
         <a href="#competences">Compétences</a>
         <a href="#projets">Projets</a>
         <a href="#contact">Contact</a>
+        <a href="#profils">profils</a>
         <a href="#CV">CV</a>
-        <a href="#liens">Autres liens</a>
+        
     </nav>
 
     <section id="apropos">
@@ -38,34 +41,92 @@
         </p>
     </section>
 
+    <section id="formation">
+    <h2>Formation</h2>
+
+    <p>
+        <strong>BUT Informatique</strong>
+        <br>
+        IUT de Nantes
+        <br>
+        2025 - Aujourd'hui
+    </p>
+
+    </section>
+
     <section id="competences">
-        <h2>Compétences</h2>
-        <ul>
-            <li>HTML / CSS</li>
-            <li>Kotlin</li>
-            <li>Python</li>
-            <li>Git & GitHub</li>
-            <li>Ghidra</li>
-            <li>SQL</li>
-            <li>Wireshark</li>
-            <li>Go</li>
-        </ul>
+      <h2>Compétences</h2>
+        <div class="competence">
+            <span>HTML / CSS</span>
+            <div class="barre">
+                <div class="niveau html"></div>
+            </div>
+        </div>
+
+        <div class="competence">
+            <span>Python</span>
+            <div class="barre">
+                <div class="niveau python"></div>
+            </div>
+        </div>
+
+        <div class="competence">
+            <span>Kotlin</span>
+            <div class="barre">
+                <div class="niveau kotlin"></div>
+            </div>
+        </div>
+
+        <div class="competence">
+            <span>Git & GitHub</span>
+            <div class="barre">
+                <div class="niveau git"></div>
+            </div>
+        </div>
+
+        <div class="competence">
+            <span>Ghidra</span>
+            <div class="barre">
+                <div class="niveau ghidra"></div>
+            </div>
+        </div>
+
+        <div class="competence">
+            <span>SQL</span>
+            <div class="barre">
+                <div class="niveau sql"></div>
+            </div>
+        </div>
+
+        <div class="competence">
+            <span>Wireshark</span>
+            <div class="barre">
+                <div class="niveau wireshark"></div>
+            </div>
+        </div>
+
+        <div class="competence">
+            <span>Go</span>
+            <div class="barre">
+                <div class="niveau go"></div>
+            </div>
+        </div>
     </section>
 
     <section id="projets">
         <h2>Projets réalisés</h2>
         <div class="projets">
             <div class="carte">
-                <h3>Projet 1</h3>
-                <h4>Générateur de particules</h4>
+                <h3>Générateur de particules</h3>
+                <br>
                 <p>Nous avons dû, à deux, créer un Générateur de particules pour une SAE en développement avec plusieurs particulatités, par exemples de collisions
                   et des optimisations, des éléments interactifs.
                 </p>
             </div>
 
             <div class="carte">
-                <h3>Projet 2</h3>
-                <h4>Jeu de gestion d'entreprise</h4>
+                <h3>Jeu de gestion d'entreprise</h3>
+                <br>
                 <p>En équipe de 4, nous avons créé un jeu en lien avec nos cours de gestion des organisations tout en étant drôle. 
                   Nous avons donc fait un jeu où nous devons gérer une entreprise.
                   
@@ -73,8 +134,8 @@
             </div>
 
             <div class="carte">
-                <h3>Projet 3</h3>
-                <h4>Site web</h4>
+                <h3>Projet de site web</h3>
+                <br>
                 <p>Pour le cours de développement web, nous avons dû faire un site web comme on le voulait, puis le présenter et 
                   expliquer nos choix et comment nous l'avons construit.</p>
             </div>
@@ -89,25 +150,32 @@
         <br>
         <p>LinkedIn :</p>
         <a href="https://www.linkedin.com/in/benjamin-maugin-057412414/" target="_blank">linkedin.com/in/votreprofil</a>
-        <br>
-        <br>
-        <p>GitHub : </p>
-        <a href="https://github.com/BenjaminMaugin" target="_blank">github.com/BenjaminMaugin</a>
+    </section>
+
+    <section id="profils">
+        <h2>Profils techniques</h2>
+
+        <a href="https://github.com/BenjaminMaugin" target="_blank">
+            GitHub
+        </a>
+
+        <br><br>
+
+        <a href="https://www.root-me.org/Ben-1107026?lang=fr#cd99f0a646b6698f3100f4c901001e58" target="_blank">
+            Root-Me
+        </a>
     </section>
 
     <section id="CV">
         <h2>CV</h2>
-        <a href="assets/cv_benjamin_maugin.pdf">Télécharger mon CV</a>
+        <a href="assets/cv_benjamin_maugin.pdf"
+          class="btn"
+          target="_blank">
+          📄 Consulter mon CV
+        </a>
     </section>
 
-    <section id="liens">
-        <h2>Autres liens</h2>
-        <a href="https://www.root-me.org/Ben-1107026?lang=fr#cd99f0a646b6698f3100f4c901001e58" target="_blank">rootme</a>
-    </section>
-
-    <footer>
-        <p>© 2026 - Portfolio</p>
-    </footer>
+    
 
 </body>
 </html>
