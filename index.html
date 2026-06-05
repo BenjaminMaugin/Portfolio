@@ -4,78 +4,16 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio - Étudiant</title>
-    <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            font-family: Arial, sans-serif;
-        }
+    <link rel="stylesheet" href="assets/index.css">
+ 
 
-        body {
-            background: #f4f4f4;
-            color: #333;
-        }
 
-        header {
-            background: #2563eb;
-            color: white;
-            text-align: center;
-            padding: 50px 20px;
-        }
-
-        nav {
-            background: #1e40af;
-            padding: 15px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
-        }
-
-        section {
-            max-width: 900px;
-            margin: 30px auto;
-            padding: 20px;
-            background: white;
-            border-radius: 10px;
-        }
-
-        h2 {
-            margin-bottom: 15px;
-            color: #2563eb;
-        }
-
-        .projets {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 15px;
-        }
-
-        .carte {
-            background: #f8fafc;
-            padding: 15px;
-            border-radius: 8px;
-            border-left: 4px solid #2563eb;
-        }
-
-        footer {
-            text-align: center;
-            padding: 20px;
-            background: #2563eb;
-            color: white;
-            margin-top: 30px;
-        }
-    </style>
 </head>
 <body>
 
     <header>
-        <h1>Prénom Nom</h1>
-        <p>Étudiant en Informatique</p>
+        <h1>Benjamin Maugin</h1>
+        <p>Étudiant en Informatique à l'IUT de Nantes</p>
     </header>
 
     <nav>
@@ -83,13 +21,14 @@
         <a href="#competences">Compétences</a>
         <a href="#projets">Projets</a>
         <a href="#contact">Contact</a>
+        <a href="#CV">CV</a>
     </nav>
 
     <section id="apropos">
         <h2>À propos</h2>
         <p>
-            Je suis étudiant en informatique passionné par le développement web,
-            les nouvelles technologies et la création d'applications.
+            Je suis un étudiant d'Informatique à l'IUT de Nantes, je suis dans la filière de développement 
+            et je suis particulièrement passionné par la création d'applications et de programmes.
         </p>
     </section>
 
@@ -97,9 +36,13 @@
         <h2>Compétences</h2>
         <ul>
             <li>HTML / CSS</li>
-            <li>JavaScript</li>
+            <li>Kotlin</li>
             <li>Python</li>
             <li>Git & GitHub</li>
+            <li>Ghidra</li>
+            <li>SQL</li>
+            <li>Wireshark</li>
+            <li>Go</li>
         </ul>
     </section>
 
@@ -108,30 +51,35 @@
         <div class="projets">
             <div class="carte">
                 <h3>Projet 1</h3>
-                <p>Site web de gestion d'événements.</p>
+                <p>Générateur de particules</p>
             </div>
 
             <div class="carte">
                 <h3>Projet 2</h3>
-                <p>Application de gestion de tâches.</p>
+                <p>Jeu de gestion d'entreprise</p>
             </div>
 
             <div class="carte">
                 <h3>Projet 3</h3>
-                <p>Portfolio personnel responsive.</p>
+                <p>Site web</p>
             </div>
         </div>
     </section>
 
     <section id="contact">
         <h2>Contact</h2>
-        <p>Email : prenom.nom@email.com</p>
+        <p>Email : benmaug1@gmail.com</p>
         <p>LinkedIn : linkedin.com/in/votreprofil</p>
-        <p>GitHub : github.com/votreprofil</p>
+        <a href="https://github.com/BenjaminMaugin">GitHub : github.com/BenjaminMaugin</a>
+    </section>
+
+    <section id="CV">
+        <h2>CV</h2>
+        <a href="cv.html">Télécharger mon CV</a>
     </section>
 
     <footer>
-        <p>© 2026 - Portfolio Étudiant</p>
+        <p>© 2026 - Portfolio</p>
     </footer>
 
 </body>
