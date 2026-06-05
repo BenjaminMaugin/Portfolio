@@ -3,6 +3,7 @@
             padding: 0;
             box-sizing: border-box;
             font-family: Arial, sans-serif;
+            animation: slideDown 1s ease
         }
 
         body {
@@ -17,16 +18,48 @@
             padding: 50px 20px;
         }
 
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+            position: relative;
+            transition: 0.3s;
+        }
+
+        nav a :hover{
+            transform: scale(1.1);
+        }
+
+        nav a::after {
+            content: "";
+            position: absolute;
+            left: 0;
+            bottom: -5px;
+            width: 0;
+            height: 2px;
+            background: white;
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
         nav {
             background: #1e40af;
             padding: 15px;
             text-align: center;
         }
 
-        nav a {
-            color: white;
-            text-decoration: none;
-            margin: 0 15px;
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0.5;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
         }
 
         section {
@@ -61,4 +94,8 @@
             background: #2563eb;
             color: white;
             margin-top: 30px;
+        }
+
+        h3 {
+            font-size: 22px;
         }
