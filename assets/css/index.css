@@ -123,23 +123,7 @@
             box-shadow: 0 4px 20px rgba(0,0,0,0.3);
         }
         .competence {
-            display: flex;
-            align-items: center;
-            gap: 12px;
-            margin : 20px;
-        }
-
-        .icon img{
-            width: 30px;
-            height: 30px;
-            max-width: 30px;
-            max-height: 30px;
-            object-fit: contain;
-            flex-shrink: 0;
-        }
-
-        .competence-info {
-            flex: 1;
+            margin-bottom: 20px;
         }
 
         .competence span {
